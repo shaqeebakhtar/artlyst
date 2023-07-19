@@ -6,7 +6,8 @@ import express from "express";
 import http from "http";
 import cors from "cors";
 import { json } from "body-parser";
-import { typeDefs, resolvers } from "./graphql/schema";
+import typeDefs from "./graphql/typeDefs";
+import resolvers from "./graphql/resolvers";
 
 dotenv.config();
 
