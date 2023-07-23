@@ -2,11 +2,11 @@
   "name": "artlyst-server",
   "version": "1.0.0",
   "description": "",
-  "main": "build/server.js",
+  "main": "src/server.ts",
   "scripts": {
     "build": "npx tsc",
-    "start": "node build/server.js",
-    "dev": "nodemon server.ts"
+    "start": "node src/build/server.js",
+    "dev": "nodemon src/server.ts"
   },
   "keywords": [],
   "author": "",
